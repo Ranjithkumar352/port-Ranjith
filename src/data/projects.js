@@ -1,16 +1,17 @@
-import resume from "../assets/projects/resume.png";
+
+import careerpilot from "../assets/projects/careerpilot.png";
 import importer from "../assets/projects/importer.png";
 import sign from "../assets/projects/sign.png";
 
 export const projects = [
   {
-    title: "AI Resume Analyzer",
-    image: resume,
+    title: "CareerPilot - AI Career Agent",
+    image: careerpilot,
     description:
-      "AI-powered resume analyzer that extracts skills, calculates ATS score, detects missing keywords, and provides resume improvement suggestions.",
-    tech: ["React", "Node.js", "MongoDB", "Gemini API"],
+      "AI-powered career agent that analyzes job descriptions, matches candidate skills, calculates job match percentages, identifies missing skills, and generates personalized learning plans.",
+    tech: ["React", "Python", "Google Gemini API", "AI Agents"],
     github: "https://github.com/Ranjithkumar352",
-    live: "https://ai-resume-analyzer-frontend-teal.vercel.app/",
+    live: "https://careerpilot-red.vercel.app/",
   },
 
   {
